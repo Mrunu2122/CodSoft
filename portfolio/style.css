@@ -57,7 +57,7 @@ header {
     background-color: transparent;
 }
 
-.intro {
+#home {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -70,7 +70,7 @@ h1 {
     justify-content: center;
 }
 
-.intro h2 {
+#home h2 {
     font-size: 24px;
     margin-bottom: 10px;
     padding: 0;
@@ -78,7 +78,7 @@ h1 {
     justify-content: center;
 }
 
-.intro p {
+#home p {
     font-size: 16px;
     justify-content: center;
 }
@@ -185,4 +185,26 @@ h1 {
     margin: 20px;
     text-align: center;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+.footer a {
+    color: #050505;
+} 
+
+.footer a:hover {
+    color: blue;
+}
+
+.footer .social>* {
+    margin-right: 30px;
+}
+
 
